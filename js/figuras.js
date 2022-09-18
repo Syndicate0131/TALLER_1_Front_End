@@ -1,3 +1,5 @@
+alert("Bienvenido, esta es la calculadore de area y perimetro de las 4 figuras.")
+
 function triangulo() {
     let bt=parseFloat(document.getElementById('bt').value);
     let at=parseFloat(document.getElementById('at').value);
@@ -51,3 +53,19 @@ function circulo() {
             alert("El perimetro del circulo es: "+peri.toFixed(2));
     }
 }
+
+const cuadr=document.getElementById('cua')
+
+cuadr.addEventListener('click',cuadrado)
+
+const tria=document.getElementById('tri')
+
+tria.addEventListener('click',triangulo)
+
+const rect=document.getElementById('rec')
+
+rect.addEventListener('click',rectangulo)
+
+const circ=document.getElementById('cir')
+
+circ.addEventListener('click',circulo)

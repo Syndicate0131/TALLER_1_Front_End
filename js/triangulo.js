@@ -14,3 +14,9 @@ function tipotriangulo() {
         alert("El triangulo es escaleno"); 
     }
 }
+
+
+
+const tri=document.getElementById('tipotriangulo')
+
+tri.addEventListener('click',tipotriangulo)

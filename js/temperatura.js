@@ -1,9 +1,11 @@
 alert("Bienvenido, este programa le permitira hacer conversion de temperaturas, digite por favor las opciones y digite el campo")
 
+
 function temp() {
     let opc1=document.getElementById('ce').value;
     let opc2=document.getElementById('ca').value;
     let temp=parseFloat(document.getElementById('temp').value);
+    
     if (opc1==1) {
         if (opc2==1) {
             alert("Esta opcion es invalida ya que no se puede realizar la conversion al mismo tipo de temperatura");
@@ -45,3 +47,7 @@ function temp() {
     }
 
 }
+
+const conversion=document.getElementById('calc')
+
+conversion.addEventListener('click',temp)

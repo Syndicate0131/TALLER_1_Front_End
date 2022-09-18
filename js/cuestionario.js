@@ -61,3 +61,7 @@ function eval() {
         }
     }
 }
+
+const evaluar=document.getElementById('eval')
+
+evaluar.addEventListener('click',eval)
