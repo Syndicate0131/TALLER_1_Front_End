@@ -49,7 +49,30 @@
     margin: 2rem;
 }
 .cont{
-
     height: 44.2rem;
     background-color: #8758FF;
+}
+.cont1{
+    text-align: center;
+}
+.cont-g{
+    margin-left: 35rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.cont4 button{
+
+    border-radius: 40px;
+    height: 5rem;
+    width: 10rem;
+    margin-left: 53rem;
+    background-color: #181818;
+    color: white;
+}
+.frm-no-enviado{
+    margin-left: 49rem;
+    margin-top: -2rem;
 }
