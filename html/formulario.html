@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
     <title>Formulario</title>
 </head>
 <body>
@@ -16,12 +17,10 @@
             <label for="tipodoc">Tipo de Documento</label>
             <div class="form-group-input"> 
                 <select id="tipodoc" name="tipodoc" class="frm-input">
-                    <option value="0">Seleccione un tipo de documento</option>
                     <option value="1">Cedula de ciudadania</option>
                     <option value="2">Tarjeta de identidad</option>
                     <option value="3">Cedula de extrangeria</option>
                 </select>
-                <span class="msn-error">Solo puedes ingresar numeros de mnimo 7 y máximo 10 digitos</span>
             </div>
         </div>
 
@@ -30,7 +29,7 @@
             <label for="numdoc">Numero de Documento</label>
             <div class="form-group-input"> 
                 <input type="number" id="numdoc" name="numdoc" class="frm-input">
-                <span class="msn-error">Solo puedes ingresar numeros de mnimo 5 y máximo 10 digitos y el campo es obligatorio.</span>
+                <span class="msn-error">Solo puedes ingresar numeros de minimo 5 y el campo es obligatorio.</span>
             </div>
         </div>
 
@@ -72,10 +71,10 @@
 
 
         <div class="form-group" id="g-password2">
-            <label for="password2">Contraseña</label>
+            <label for="password2">Confirmar Contraseña</label>
             <div class="form-group-input"> 
                 <input type="password" id="password2" name="password2" class="frm-input">
-                <span class="msn-error">La cconfirmacion de la contraseña no coincide</span>
+                <span class="msn-error">La confirmacion de la contraseña no coincide</span>
             </div>
         </div>
 
@@ -86,7 +85,12 @@
                 Acepto los terminos y condiciones
             </label>
         </div>
+
+        <div class="frm-no-enviado" id="form-no-enviado">
+            <p><b>Error:</b>Hay campos incompletos o ivalidos.</p>
+        </div>
             
+            <button type="submit" class="btn-enviar">Enviar</button>
         </form> 
     </div>
 </body>

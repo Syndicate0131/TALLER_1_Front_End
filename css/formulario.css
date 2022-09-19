@@ -1,0 +1,21 @@
+.msn-error{
+    color: red;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.msn-error-visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.frm-no-enviado {
+    color: red;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.frm-no-enviado-activo{
+    visibility: visible;
+    opacity: 1;
+}
