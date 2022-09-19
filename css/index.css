@@ -1,0 +1,37 @@
+.title{
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+    background-color: #5CB8E4;
+
+}
+.title h1{
+    margin: 2rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+    background-color: #5CB8E4;
+}
+.footer h1{
+    margin: 2rem;
+}
+h1{
+    margin-top: auto;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 44.2rem;
+    background-color: #8758FF;
+}
+.but{
+    margin-top: 17rem;
+    border-radius: 40px;
+    height: 5rem;
+    width: 15rem;
+    background-color: #181818;
+    color: white;
+}
