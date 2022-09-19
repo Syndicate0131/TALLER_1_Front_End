@@ -28,7 +28,24 @@
     margin: 2rem;
 }
 .cont{
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 44.2rem;
     background-color: #8758FF;
+    font-size: 1.8rem;
+}
+.cont1{
+text-align: center;
+}
+.cont1 select{
+    border-radius: 10px;
+}
+.cont1 button{
+    margin: 0.5rem;
+    border-radius: 40px;
+    height: 5rem;
+    width: 10rem;
+    background-color: #181818;
+    color: white;
 }
