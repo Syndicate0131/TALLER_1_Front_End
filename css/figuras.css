@@ -32,3 +32,31 @@
     height: 44.2rem;
     background-color: #8758FF;
 }
+.contg{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.contg button{
+    margin: 0.5rem;
+    border-radius: 40px;
+    height: 5rem;
+    width: 10rem;
+    background-color: #181818;
+    color: white;
+}
+.cont1{
+    margin-top: 10rem;
+}
+.cont2{
+    margin-top: 10rem;
+}
+.cont3{
+    margin-top: 10rem;
+}
+.cont4{
+    margin-top: 10rem;
+}
