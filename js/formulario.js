@@ -1,3 +1,4 @@
+alert("Bienvenido, este es el formulario de registro de usuario validado.");
 const form = document.getElementById('frm-usuario');
 const campos = document.querySelectorAll('#frm-usuario input');
 
@@ -13,7 +14,7 @@ const inputs = {
 const reglas={
     textos: /^[a-zA-Z0-9]/,
     numeros: /^\d{5,}$/,
-    password: /^(?=.*\d)(?=.*[!@#$%&*)(?=.*[a-z])(?=.*[A-Z]).{10,}$/,
+    password: /^(?=.*\d)(?=.*[!@#$%&*])(?=.*[a-z])(?=.*[A-Z]).{10,}$/,
     correo:  /^[a-zA-Z0-9]+@misena.edu.co$/
 }
 
